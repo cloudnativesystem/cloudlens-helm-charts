@@ -22,6 +22,17 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/argo-cd-0.1.9/argo-cd-0.1.9.tgz
     version: 0.1.9
+  argo-events:
+  - apiVersion: v2
+    appVersion: 1.8.1
+    created: "2025-10-07T17:48:32.60758289Z"
+    description: The Event-Based Dependency Manager for Kubernetes
+    digest: 9b70ef1274773ab9df883bbd5b929739eeb9d0017afdccca42c8098514eeadcb
+    name: argo-events
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/argo-events-0.2.3/argo-events-0.2.3.tgz
+    version: 0.2.3
   argo-rollouts:
   - apiVersion: v2
     appVersion: 1.31.1
@@ -478,4 +489,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
     version: 1.16.0
-generated: "2025-10-07T17:46:22.855870922Z"
+generated: "2025-10-07T17:48:32.607596656Z"
