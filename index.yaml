@@ -140,4 +140,22 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/karpenter-1.0.1/karpenter-1.0.1.tgz
     version: 1.0.1
-generated: "2025-10-07T13:41:00.13361222Z"
+  secrets-store-csi-driver:
+  - apiVersion: v2
+    appVersion: 1.2.4
+    created: "2025-10-07T14:01:25.636142068Z"
+    description: A Helm chart to install the SecretsStore CSI Driver inside a Kubernetes
+      cluster.
+    digest: 2686ff474882a9285ede00ca2e3699b2a070d1fb9853a83cf488ba5ed98788c9
+    icon: https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ritazh@microsoft.com
+      name: Rita Zhang
+    name: secrets-store-csi-driver
+    sources:
+    - https://github.com/kubernetes-sigs/secrets-store-csi-driver
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/secrets-store-csi-driver-1.2.4/secrets-store-csi-driver-1.2.4.tgz
+    version: 1.2.4
+generated: "2025-10-07T14:01:25.636155764Z"
