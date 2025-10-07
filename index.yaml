@@ -107,4 +107,15 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/cilium-1.15.0/cilium-1.15.0.tgz
     version: 1.15.0
-generated: "2025-10-06T16:09:52.981586523Z"
+  karpenter:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2025-10-07T13:13:17.879932253Z"
+    description: A Helm chart for deploying Karpenter to Kubernetes
+    digest: ae1df60b7baab824aee8ff0ffda9ee54da0f94983331c903a307a9a366a06e6c
+    name: karpenter
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/karpenter-1.0.1/karpenter-1.0.1.tgz
+    version: 1.0.1
+generated: "2025-10-07T13:13:17.87993831Z"
