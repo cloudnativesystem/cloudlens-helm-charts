@@ -421,6 +421,17 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/lightdash-1.8.0/lightdash-1.8.0.tgz
     version: 1.8.0
+  metrics-server:
+  - apiVersion: v2
+    appVersion: 0.7.2
+    created: "2025-10-07T17:54:12.850472143Z"
+    description: A Helm chart which deploys metrics-server to kubernetes
+    digest: d557c568e041b2aadf5dcec3a477d039119dc09399f81a919e9bc218f68583fb
+    name: metrics-server
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/metrics-server-0.1.0/metrics-server-0.1.0.tgz
+    version: 0.1.0
   nvidia-device-plugin:
   - apiVersion: v2
     appVersion: 0.14.1
@@ -500,4 +511,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
     version: 1.16.0
-generated: "2025-10-07T17:50:58.605461029Z"
+generated: "2025-10-07T17:54:12.85048116Z"
