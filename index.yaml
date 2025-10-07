@@ -44,6 +44,17 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/argo-rollouts-0.1.4/argo-rollouts-0.1.4.tgz
     version: 0.1.4
+  argo-workflows:
+  - apiVersion: v2
+    appVersion: 3.4.11
+    created: "2025-10-07T17:50:58.605451351Z"
+    description: The workflow engine for Kubernetes
+    digest: 5b930a17096e17983abb84102a99b88d9b17aa3d7deec7fe7c20272d58aaa931
+    name: argo-workflows
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/argo-workflows-0.3.3/argo-workflows-0.3.3.tgz
+    version: 0.3.3
   aws-ebs-csi-driver:
   - apiVersion: v2
     appVersion: 1.23.1
@@ -489,4 +500,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
     version: 1.16.0
-generated: "2025-10-07T17:48:32.607596656Z"
+generated: "2025-10-07T17:50:58.605461029Z"
