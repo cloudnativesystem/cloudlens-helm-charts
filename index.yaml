@@ -184,6 +184,28 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/karpenter-1.0.1/karpenter-1.0.1.tgz
     version: 1.0.1
+  keda:
+  - apiVersion: v2
+    appVersion: 2.17.2
+    created: "2025-10-07T14:52:40.514554361Z"
+    description: Event-based autoscaler for workloads on Kubernetes
+    digest: f7ee157bc7d96c68077222a425906b17e47a71fc3d4ab621195feee16d3990c5
+    home: https://github.com/kedacore/keda
+    icon: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
+    kubeVersion: '>=v1.23.0-0'
+    maintainers:
+    - email: jorge_turrado@hotmail.es
+      name: Jorge Turrado
+    - email: zbynek@kedify.io
+      name: Zbynek Roubalik
+    - email: jan@kedify.io
+      name: Jan Wozniak
+    name: keda
+    sources:
+    - https://github.com/kedacore/keda
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/keda-2.17.2/keda-2.17.2.tgz
+    version: 2.17.2
   nvidia-device-plugin:
   - apiVersion: v2
     appVersion: 0.14.1
@@ -226,4 +248,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/secrets-store-csi-driver-1.2.4/secrets-store-csi-driver-1.2.4.tgz
     version: 1.2.4
-generated: "2025-10-07T14:45:35.30126365Z"
+generated: "2025-10-07T14:52:40.514564399Z"
