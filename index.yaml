@@ -1,5 +1,26 @@
 apiVersion: v1
 entries:
+  aws-ebs-csi-driver:
+  - apiVersion: v2
+    appVersion: 1.23.1
+    created: "2025-10-07T14:34:14.999893559Z"
+    description: A Helm chart for AWS EBS CSI Driver
+    digest: 3af4b4f481e512d8f250e5988a45c7ba1fca5fae44ecb3b58df456ce366a4b06
+    home: https://github.com/kubernetes-sigs/aws-ebs-csi-driver
+    keywords:
+    - aws
+    - ebs
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - name: Kubernetes Authors
+      url: https://github.com/kubernetes-sigs/aws-ebs-csi-driver/
+    name: aws-ebs-csi-driver
+    sources:
+    - https://github.com/kubernetes-sigs/aws-ebs-csi-driver
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/aws-ebs-csi-driver-2.23.1/aws-ebs-csi-driver-2.23.1.tgz
+    version: 2.23.1
   aws-secrets-manager:
   - apiVersion: v2
     created: "2025-10-07T13:41:00.133606409Z"
@@ -158,4 +179,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/secrets-store-csi-driver-1.2.4/secrets-store-csi-driver-1.2.4.tgz
     version: 1.2.4
-generated: "2025-10-07T14:01:25.636155764Z"
+generated: "2025-10-07T14:34:14.999906844Z"
