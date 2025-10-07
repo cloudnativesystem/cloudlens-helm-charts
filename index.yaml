@@ -388,6 +388,76 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/keda-2.17.2/keda-2.17.2.tgz
     version: 2.17.2
+  kube-prometheus-stack:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.77.1
+    created: "2025-10-07T17:56:32.419593392Z"
+    dependencies:
+    - condition: crds.enabled
+      name: crds
+      repository: ""
+      version: 0.0.0
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.26.*
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.39.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 8.5.*
+    - condition: windowsMonitoring.enabled
+      name: prometheus-windows-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 0.7.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 3c3d9a4e130b342d890117947e9abc2fd2482a988c0eaea22654414bd10c913b
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+    - email: github@jkroepke.de
+      name: jkroepke
+    - email: scott@r6by.com
+      name: scottrigby
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/kube-prometheus-stack-65.2.0/kube-prometheus-stack-65.2.0.tgz
+    version: 65.2.0
   lightdash:
   - apiVersion: v2
     appVersion: 0.1121.0
@@ -511,4 +581,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
     version: 1.16.0
-generated: "2025-10-07T17:54:12.85048116Z"
+generated: "2025-10-07T17:56:32.419604743Z"
