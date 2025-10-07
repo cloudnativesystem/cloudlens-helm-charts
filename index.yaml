@@ -537,6 +537,16 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/nvidia-device-plugin-0.14.1/nvidia-device-plugin-0.14.1.tgz
     version: 0.14.1
+  ray-cluster:
+  - apiVersion: v1
+    created: "2025-10-07T18:25:46.604397893Z"
+    description: A Helm chart for Kubernetes
+    digest: 7fdd27d5136c3fbf45da6ae0bb69fa037cc105fa84d13d6188dd93e1ce9597c7
+    icon: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png
+    name: ray-cluster
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/ray-cluster-1.2.2/ray-cluster-1.2.2.tgz
+    version: 1.2.2
   secrets-store-csi-driver:
   - apiVersion: v2
     appVersion: 1.2.4
@@ -609,4 +619,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trivy-operator-0.26.2/trivy-operator-0.26.2.tgz
     version: 0.26.2
-generated: "2025-10-07T18:23:23.685762739Z"
+generated: "2025-10-07T18:25:46.604413452Z"
