@@ -206,6 +206,39 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/keda-2.17.2/keda-2.17.2.tgz
     version: 2.17.2
+  lightdash:
+  - apiVersion: v2
+    appVersion: 0.1121.0
+    created: "2025-10-07T16:18:00.139561262Z"
+    dependencies:
+    - name: common
+      repository: ""
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: ""
+      version: 11.x.x
+    - condition: browserless-chrome.enabled
+      name: browserless-chrome
+      repository: ""
+      version: 0.0.5
+    description: A Helm chart to deploy lightdash on kubernetes
+    digest: 1e7c3134f49eb14abcb4532030b7d841dcc12dc2afbb54b044a968af0672e690
+    icon: https://docs.lightdash.com/img/logo.png
+    maintainers:
+    - email: oliver@lightdash.com
+      name: owlas
+      url: https://github.com/owlas
+    - email: jim@ramtank.com
+      name: jim80net
+      url: https://github.com/jim80net
+    name: lightdash
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/lightdash-1.8.0/lightdash-1.8.0.tgz
+    version: 1.8.0
   nvidia-device-plugin:
   - apiVersion: v2
     appVersion: 0.14.1
@@ -285,4 +318,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
     version: 1.16.0
-generated: "2025-10-07T15:58:06.498863026Z"
+generated: "2025-10-07T16:18:00.139574436Z"
