@@ -355,6 +355,30 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/internal-dns-0.1.9/internal-dns-0.1.9.tgz
     version: 0.1.9
+  jupyterhub:
+  - apiVersion: v2
+    appVersion: 4.0.2
+    created: "2025-10-07T18:28:46.9819317Z"
+    description: Multi-user Jupyter installation
+    digest: c188e29e19b8cf7b121e1e7993255e84cec084a362512a2416b8c0bc50d3d536
+    home: https://z2jh.jupyter.org
+    icon: https://hub.jupyter.org/helm-chart/images/hublogo.svg
+    keywords:
+    - jupyter
+    - jupyterhub
+    - z2jh
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - name: Simon Li
+      url: https://github.com/manics/
+    name: jupyterhub
+    sources:
+    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/jupyterhub-3.1.0/jupyterhub-3.1.0.tgz
+    version: 3.1.0
   karpenter:
   - apiVersion: v2
     appVersion: 1.0.1
@@ -619,4 +643,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trivy-operator-0.26.2/trivy-operator-0.26.2.tgz
     version: 0.26.2
-generated: "2025-10-07T18:25:46.604413452Z"
+generated: "2025-10-07T18:28:46.981942912Z"
