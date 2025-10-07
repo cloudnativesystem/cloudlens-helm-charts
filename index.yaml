@@ -88,6 +88,17 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/aws-secrets-manager-0.1.0/aws-secrets-manager-0.1.0.tgz
     version: 0.1.0
+  cert-manager:
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2025-10-07T17:41:55.537265493Z"
+    description: A Helm chart for Cert Manager
+    digest: 05491ea6de3f4e9029802282117e41472f5e906b0690f31d99d4c81e4ea1ae07
+    name: cert-manager
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/cert-manager-1.13.1/cert-manager-1.13.1.tgz
+    version: 1.13.1
   cilium:
   - annotations:
       artifacthub.io/crds: "- kind: CiliumNetworkPolicy\n  version: v2\n  name: ciliumnetworkpolicies.cilium.io\n
@@ -445,4 +456,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
     version: 1.16.0
-generated: "2025-10-07T17:38:37.830864129Z"
+generated: "2025-10-07T17:41:55.537279319Z"
