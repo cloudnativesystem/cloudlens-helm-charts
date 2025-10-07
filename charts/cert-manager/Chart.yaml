@@ -1,0 +1,10 @@
+apiVersion: v2
+name: cert-manager
+description: A Helm chart for Cert Manager
+
+
+type: application
+
+version: 1.13.1
+
+appVersion: "1.12.0"
