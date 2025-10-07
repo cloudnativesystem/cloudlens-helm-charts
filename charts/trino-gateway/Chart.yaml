@@ -1,0 +1,13 @@
+apiVersion: v2
+appVersion: "16"
+description: A Helm chart for Trino Gateway
+home: https://trinodb.github.io/trino-gateway/
+icon: https://trino.io/assets/images/logos/trino-gateway-small.png
+maintainers:
+- name: Trino community
+name: trino-gateway
+sources:
+- https://github.com/trinodb/charts
+- https://github.com/trinodb/trino-gateway
+type: application
+version: 1.16.0
