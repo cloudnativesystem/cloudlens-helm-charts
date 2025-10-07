@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  alb-dns:
+  - apiVersion: v2
+    appVersion: 0.11.0
+    created: "2025-10-07T17:33:15.29193524Z"
+    description: A Helm chart for Kubernetes
+    digest: b0e0572e2f4a29ba041c7df10ea7dabc95da59ef147a232525120a7a148be673
+    name: alb-dns
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/alb-dns-0.1.9/alb-dns-0.1.9.tgz
+    version: 0.1.9
   aws-ebs-csi-driver:
   - apiVersion: v2
     appVersion: 1.23.1
@@ -412,4 +423,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
     version: 1.16.0
-generated: "2025-10-07T17:30:50.046062951Z"
+generated: "2025-10-07T17:33:15.291948424Z"
