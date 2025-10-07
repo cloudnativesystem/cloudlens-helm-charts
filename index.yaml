@@ -184,6 +184,30 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/karpenter-1.0.1/karpenter-1.0.1.tgz
     version: 1.0.1
+  nvidia-device-plugin:
+  - apiVersion: v2
+    appVersion: 0.14.1
+    created: "2025-10-07T14:45:35.301251537Z"
+    dependencies:
+    - alias: nfd
+      condition: nfd.enabled,gfd.enabled
+      name: node-feature-discovery
+      repository: https://kubernetes-sigs.github.io/node-feature-discovery/charts
+      version: 0.13.0
+    - alias: gfd
+      condition: gfd.enabled
+      name: gpu-feature-discovery
+      repository: ""
+      version: 0.8.1
+    description: A Helm chart for the nvidia-device-plugin on Kubernetes
+    digest: 94af80eb156be480c360b38e00fe6e14ee8a991b8e33ee94b056a5e0e567a1a1
+    home: https://github.com/NVIDIA/k8s-device-plugin
+    kubeVersion: '>= 1.10.0-0'
+    name: nvidia-device-plugin
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/nvidia-device-plugin-0.14.1/nvidia-device-plugin-0.14.1.tgz
+    version: 0.14.1
   secrets-store-csi-driver:
   - apiVersion: v2
     appVersion: 1.2.4
@@ -202,4 +226,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/secrets-store-csi-driver-1.2.4/secrets-store-csi-driver-1.2.4.tgz
     version: 1.2.4
-generated: "2025-10-07T14:40:34.127959754Z"
+generated: "2025-10-07T14:45:35.30126365Z"
