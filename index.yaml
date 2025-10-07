@@ -248,4 +248,23 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/secrets-store-csi-driver-1.2.4/secrets-store-csi-driver-1.2.4.tgz
     version: 1.2.4
-generated: "2025-10-07T14:52:40.514564399Z"
+  trino:
+  - apiVersion: v2
+    appVersion: "477"
+    created: "2025-10-07T15:53:15.002106409Z"
+    description: Fast distributed SQL query engine for big data analytics that helps
+      you explore your data universe
+    digest: 0cbf6726042a24fbe3aa24dd3fbf2112d2a5e1ab69ec9fc5bfb11f80a4b5edad
+    home: https://trino.io/
+    icon: https://trino.io/assets/trino.png
+    maintainers:
+    - name: Trino community
+    name: trino
+    sources:
+    - https://github.com/trinodb/charts
+    - https://github.com/trinodb/trino/tree/master/core/docker
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-1.41.0/trino-1.41.0.tgz
+    version: 1.41.0
+generated: "2025-10-07T15:53:15.002118132Z"
