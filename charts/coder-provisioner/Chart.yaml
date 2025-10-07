@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: 2.26.1
 dependencies:
 - name: libcoder
-  repository: file://../libcoder
+  repository: file://./charts/libcoder
   version: 0.1.0
 description: External provisioner daemon for Coder. This is an Enterprise feature;
   contact sales@coder.com.
