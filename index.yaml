@@ -44,6 +44,17 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/aws-efs-csi-driver-2.5.0/aws-efs-csi-driver-2.5.0.tgz
     version: 2.5.0
+  aws-load-balancer-controller:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-10-07T17:30:50.046050447Z"
+    description: A Helm chart for Kubernetes
+    digest: 8f136762b8e1356544893d8b2042d7660e94268b362a871fcbaee6e67290f933
+    name: aws-load-balancer-controller
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/aws-load-balancer-controller-0.1.0/aws-load-balancer-controller-0.1.0.tgz
+    version: 0.1.0
   aws-secrets-manager:
   - apiVersion: v2
     created: "2025-10-07T13:41:00.133606409Z"
@@ -401,4 +412,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
     version: 1.16.0
-generated: "2025-10-07T17:27:35.761035993Z"
+generated: "2025-10-07T17:30:50.046062951Z"
