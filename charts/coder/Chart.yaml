@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: 2.26.1
 dependencies:
 - name: libcoder
-  repository: file://../libcoder
+  repository: file://./charts/libcoder
   version: 0.1.0
 description: Remote development environments on your infrastructure
 home: https://github.com/coder/coder
