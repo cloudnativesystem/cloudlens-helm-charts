@@ -200,6 +200,34 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/coder-2.26.1/coder-2.26.1.tgz
     version: 2.26.1
+  coder-provisioner:
+  - apiVersion: v2
+    appVersion: 2.26.1
+    created: "2025-10-07T16:41:25.668566073Z"
+    dependencies:
+    - name: libcoder
+      repository: file://./charts/libcoder
+      version: 0.1.0
+    description: External provisioner daemon for Coder. This is an Enterprise feature;
+      contact sales@coder.com.
+    digest: 7c192ace78f6643cfda2fec82d3447301cab5221c0873fcdd924b1767258da65
+    home: https://github.com/coder/coder
+    icon: https://helm.coder.com/coder_logo_black.png
+    keywords:
+    - coder
+    - terraform
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: support@coder.com
+      name: Coder Technologies, Inc.
+      url: https://coder.com/contact
+    name: coder-provisioner
+    sources:
+    - https://github.com/coder/coder/tree/main/helm/provisioner
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/coder-provisioner-2.26.1/coder-provisioner-2.26.1.tgz
+    version: 2.26.1
   karpenter:
   - apiVersion: v2
     appVersion: 1.0.1
@@ -345,4 +373,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
     version: 1.16.0
-generated: "2025-10-07T16:33:14.659691471Z"
+generated: "2025-10-07T16:41:25.668578115Z"
