@@ -458,6 +458,17 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/kube-prometheus-stack-65.2.0/kube-prometheus-stack-65.2.0.tgz
     version: 65.2.0
+  kuberay-operator:
+  - apiVersion: v2
+    created: "2025-10-07T18:23:23.685748433Z"
+    description: A Helm chart for Kubernetes
+    digest: db430145efa1854c22a5ddf07be56f16898ece79a3fd388c6efcab351dafaec2
+    icon: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png
+    name: kuberay-operator
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/kuberay-operator-1.2.2/kuberay-operator-1.2.2.tgz
+    version: 1.2.2
   lightdash:
   - apiVersion: v2
     appVersion: 0.1121.0
@@ -598,4 +609,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trivy-operator-0.26.2/trivy-operator-0.26.2.tgz
     version: 0.26.2
-generated: "2025-10-07T18:20:09.881718026Z"
+generated: "2025-10-07T18:23:23.685762739Z"
