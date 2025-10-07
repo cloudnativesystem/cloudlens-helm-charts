@@ -581,4 +581,21 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
     version: 1.16.0
-generated: "2025-10-07T17:56:32.419604743Z"
+  trivy-operator:
+  - apiVersion: v2
+    appVersion: 0.24.1
+    created: "2025-10-07T18:20:09.881704661Z"
+    description: Keeps security report resources updated
+    digest: 538be8797705e087338a85d3173f11cf6b39702dc941a6423679967c6ac03a3f
+    keywords:
+    - aquasecurity
+    - trivyoperator
+    - trivy
+    name: trivy-operator
+    sources:
+    - https://github.com/aquasecurity/trivy-operator
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trivy-operator-0.26.2/trivy-operator-0.26.2.tgz
+    version: 0.26.2
+generated: "2025-10-07T18:20:09.881718026Z"
