@@ -1,5 +1,27 @@
 apiVersion: v1
 entries:
+  aws-secrets-manager:
+  - apiVersion: v2
+    created: "2025-10-07T13:41:00.133606409Z"
+    description: A Helm chart for the AWS Secrets Manager and Config Provider for
+      Secret Store CSI Driver
+    digest: e0896f54a4646e13bf38160673d643277c1ac0ce7e3460c5abd088e80077588d
+    home: https://github.com/aws/secrets-store-csi-driver-provider-aws
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - secrets-store-csi-driver
+    - csi
+    - aws
+    - secrets manager
+    kubeVersion: '>=1.17.0-0'
+    name: aws-secrets-manager
+    sources:
+    - https://github.com/aws/secrets-store-csi-driver-provider-aws
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/aws-secrets-manager-0.1.0/aws-secrets-manager-0.1.0.tgz
+    version: 0.1.0
   cilium:
   - annotations:
       artifacthub.io/crds: "- kind: CiliumNetworkPolicy\n  version: v2\n  name: ciliumnetworkpolicies.cilium.io\n
@@ -118,4 +140,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/karpenter-1.0.1/karpenter-1.0.1.tgz
     version: 1.0.1
-generated: "2025-10-07T13:13:17.87993831Z"
+generated: "2025-10-07T13:41:00.13361222Z"
