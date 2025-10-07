@@ -11,6 +11,17 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/alb-dns-0.1.9/alb-dns-0.1.9.tgz
     version: 0.1.9
+  argo-cd:
+  - apiVersion: v2
+    appVersion: 2.5.2
+    created: "2025-10-07T17:44:01.455135163Z"
+    description: A declarative GitOps continuous delivery tool for Kubernetes.
+    digest: 644a3992c78fcad22552ac1b1f9b4e5e2d4c0a9d1ca8c541d4149534c36f3a92
+    name: argo-cd
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/argo-cd-0.1.9/argo-cd-0.1.9.tgz
+    version: 0.1.9
   aws-ebs-csi-driver:
   - apiVersion: v2
     appVersion: 1.23.1
@@ -456,4 +467,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
     version: 1.16.0
-generated: "2025-10-07T17:41:55.537279319Z"
+generated: "2025-10-07T17:44:01.455166622Z"
