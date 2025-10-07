@@ -21,6 +21,29 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/aws-ebs-csi-driver-2.23.1/aws-ebs-csi-driver-2.23.1.tgz
     version: 2.23.1
+  aws-efs-csi-driver:
+  - apiVersion: v2
+    appVersion: 1.7.0
+    created: "2025-10-07T14:40:34.12794703Z"
+    description: A Helm chart for AWS EFS CSI Driver
+    digest: 91a25d6ccbf0601493cd5d9880aa683510ca5f7b9898db992af0e203f5aede91
+    home: https://github.com/kubernetes-sigs/aws-efs-csi-driver
+    keywords:
+    - aws
+    - efs
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - name: leakingtapan
+      url: https://github.com/leakingtapan
+    - name: krmichel
+      url: https://github.com/krmichel
+    name: aws-efs-csi-driver
+    sources:
+    - https://github.com/kubernetes-sigs/aws-efs-csi-driver
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/aws-efs-csi-driver-2.5.0/aws-efs-csi-driver-2.5.0.tgz
+    version: 2.5.0
   aws-secrets-manager:
   - apiVersion: v2
     created: "2025-10-07T13:41:00.133606409Z"
@@ -179,4 +202,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/secrets-store-csi-driver-1.2.4/secrets-store-csi-driver-1.2.4.tgz
     version: 1.2.4
-generated: "2025-10-07T14:34:14.999906844Z"
+generated: "2025-10-07T14:40:34.127959754Z"
