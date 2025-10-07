@@ -250,6 +250,17 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/coder-provisioner-2.26.1/coder-provisioner-2.26.1.tgz
     version: 2.26.1
+  external-dns:
+  - apiVersion: v2
+    appVersion: 0.11.0
+    created: "2025-10-07T17:36:03.846127734Z"
+    description: A Helm chart for Kubernetes
+    digest: d6d86e55606ce0e4eaf619bff2097bf1d9feb6745acb011fcc6cf83bc20cfa69
+    name: external-dns
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/external-dns-0.1.9/external-dns-0.1.9.tgz
+    version: 0.1.9
   ingress-nginx:
   - annotations:
       artifacthub.io/changes: |
@@ -423,4 +434,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
     version: 1.16.0
-generated: "2025-10-07T17:33:15.291948424Z"
+generated: "2025-10-07T17:36:03.84613625Z"
