@@ -267,4 +267,22 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-1.41.0/trino-1.41.0.tgz
     version: 1.41.0
-generated: "2025-10-07T15:53:15.002118132Z"
+  trino-gateway:
+  - apiVersion: v2
+    appVersion: "16"
+    created: "2025-10-07T15:58:06.498850662Z"
+    description: A Helm chart for Trino Gateway
+    digest: 03eb7cf9757016b196529c90528782cfdfab24d31c4530c6c39ca0585ae0455e
+    home: https://trinodb.github.io/trino-gateway/
+    icon: https://trino.io/assets/images/logos/trino-gateway-small.png
+    maintainers:
+    - name: Trino community
+    name: trino-gateway
+    sources:
+    - https://github.com/trinodb/charts
+    - https://github.com/trinodb/trino-gateway
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
+    version: 1.16.0
+generated: "2025-10-07T15:58:06.498863026Z"
