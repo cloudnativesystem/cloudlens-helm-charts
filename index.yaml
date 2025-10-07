@@ -22,6 +22,17 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/argo-cd-0.1.9/argo-cd-0.1.9.tgz
     version: 0.1.9
+  argo-rollouts:
+  - apiVersion: v2
+    appVersion: 1.31.1
+    created: "2025-10-07T17:46:22.855857407Z"
+    description: Kubernetes Progressive Delivery Controller
+    digest: 473d7c97708bf77ce8d7954fa3cac0d267092025dbeefd22b33c44bb235af0e4
+    name: argo-rollouts
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/argo-rollouts-0.1.4/argo-rollouts-0.1.4.tgz
+    version: 0.1.4
   aws-ebs-csi-driver:
   - apiVersion: v2
     appVersion: 1.23.1
@@ -467,4 +478,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trino-gateway-1.16.0/trino-gateway-1.16.0.tgz
     version: 1.16.0
-generated: "2025-10-07T17:44:01.455166622Z"
+generated: "2025-10-07T17:46:22.855870922Z"
