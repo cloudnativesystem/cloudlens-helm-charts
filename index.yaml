@@ -561,6 +561,48 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/nvidia-device-plugin-0.14.1/nvidia-device-plugin-0.14.1.tgz
     version: 0.14.1
+  postgresql:
+  - annotations:
+      images: |
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r51
+        - name: postgres-exporter
+          image: docker.io/bitnami/postgres-exporter:0.17.1-debian-12-r16
+        - name: postgresql
+          image: docker.io/bitnami/postgresql:17.6.0-debian-12-r4
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 17.6.0
+    created: "2025-10-09T15:52:00.139737514Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: PostgreSQL (Postgres) is an open source object-relational database
+      known for reliability and data integrity. ACID-compliant, it supports foreign
+      keys, joins, views, triggers and stored procedures.
+    digest: 25855cda0494ce8b218c2ddb667085ff7efa1964da4b793c1d399e4b4186a717
+    home: https://bitnami.com
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/postgresql/img/postgresql-stack-220x234.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/postgresql
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/postgresql-17.0.0/postgresql-17.0.0.tgz
+    version: 17.0.0
   ray-cluster:
   - apiVersion: v1
     created: "2025-10-07T18:25:46.604397893Z"
@@ -643,4 +685,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trivy-operator-0.26.2/trivy-operator-0.26.2.tgz
     version: 0.26.2
-generated: "2025-10-07T18:28:46.981942912Z"
+generated: "2025-10-09T15:52:00.139756129Z"
