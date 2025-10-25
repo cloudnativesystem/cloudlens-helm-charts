@@ -382,6 +382,16 @@ entries:
   karpenter:
   - apiVersion: v2
     appVersion: 1.0.1
+    created: "2025-10-25T15:28:23.177402954Z"
+    description: A Helm chart for deploying Karpenter to Kubernetes
+    digest: 7d63d0af6e9d9f6da1ee14a3d4e004ea00e8464339df6c713ac436605cc238c7
+    name: karpenter
+    type: application
+    urls:
+    - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/karpenter-1.0.3/karpenter-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
+    appVersion: 1.0.1
     created: "2025-10-25T02:13:33.40130777Z"
     description: A Helm chart for deploying Karpenter to Kubernetes
     digest: 0737e58277aefff0c8e62ea8b0326f7153fe603dc07504a26b6ba686b9e978af
@@ -695,4 +705,4 @@ entries:
     urls:
     - https://github.com/cloudnativesystem/cloudlens-helm-charts/releases/download/trivy-operator-0.26.2/trivy-operator-0.26.2.tgz
     version: 0.26.2
-generated: "2025-10-25T02:13:33.40132393Z"
+generated: "2025-10-25T15:28:23.177426298Z"
